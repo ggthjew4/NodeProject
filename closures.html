@@ -8,7 +8,8 @@ var object = {　　　　
     name: "My Object",
     　　　　getNameFunc: function () {　　　　　　
         var that = this;　　　　　　
-        return function () {　　　　　　　　
+        return function () {　　
+		    alert('test');　　　　　　
             return that.name;　　　　　　
         };　　　　
     }　　
