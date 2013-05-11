@@ -1,0 +1,22 @@
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <title>My Feed Dialog Page</title>
+	<script src="http://code.jquery.com/jquery-1.9.1.js"></script>
+	<script>
+	var name = "The Window";　　
+var object = {　　　　
+    name: "My Object",
+    　　　　getNameFunc: function () {　　　　　　
+        var that = this;　　　　　　
+        return function () {　　　　　　　　
+            return that.name;　　　　　　
+        };　　　　
+    }　　
+};　　
+alert(object.getNameFunc()());
+	</script>
+  </head>
+  <body>
+  
+  </body>
+</html>
