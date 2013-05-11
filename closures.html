@@ -9,6 +9,7 @@ var object = {　　　　
     　　　　getNameFunc: function () {　　　　　　
         var that = this;　　　　　　
         return function () {
+		     $(this);
             return that.name;　　　　　　
         };　　　　
     }　　
